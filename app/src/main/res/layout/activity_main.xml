@@ -12,9 +12,9 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:src="@drawable/aj"
-    android:scaleType="centerCrop"
-    android:layout_marginBottom="20dp"
-    android:contentDescription="Profile Image" />
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="Profile Image" />
 
     <EditText
         android:id="@+id/editTextName"
@@ -89,5 +89,11 @@
         android:text="User Info Will Appear Here"
         android:textAlignment="center"
         android:padding="10dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
 
 </LinearLayout>
